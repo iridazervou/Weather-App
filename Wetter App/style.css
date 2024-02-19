@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+
+.card{
+    text-align: center;
+    margin-top: 9vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding:3vw 0vw 6vw 0%;
+    background-color: rgba(17, 14, 14, 0.685);
+    border-radius: 30px;
+    color: white;
+    font-family:"Montserrat" , sans-serif ;
+
+}
+
+.buttonsearch{
+    padding: 0.58vw 1vw 0.42vw 1vw;
+   border-radius: 20px;
+   border: none;
+   background-color: rgba(0, 0, 0, 0.379);
+   cursor: pointer;
+}
+
+.fa-solid.fa-magnifying-glass{
+    color: rgb(150, 147, 147);
+    
+}
+
+.header{
+   font-size: 2vw;
+   margin-bottom: 1.5vw;
+   padding-right: 0.6vw;
+}
+
+.temperature{
+    font-size: 3vw;
+    margin-bottom: 1vw;
+}
+
+.weather{
+    font-size: 2.3vw;
+    margin-bottom: 2vw;
+}
+
+.humidity{
+    font-size: 1.3vw;
+    display: inline;
+    
+}
+
+.fa-solid.fa-droplet{
+    font-size: 2vw;
+    margin-left: 1.5vw;
+}
+
+.wind{
+    font-size: 1.4vw;
+    display: inline;
+}
+
+.fa-solid.fa-wind{
+    font-size: 1.6vw;
+}
+
+.input{
+    background-color: rgba(0, 0, 0, 0.379);
+    margin-bottom: 2vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+    border: none;
+     border-radius: 20px;
+
+}
+
+::placeholder{
+    font-family: "Montserrat", sans-serif;
+    text-align:center;
+    font-size: 0.8vw;
+    color: rgb(150, 147, 147);
+    
+}
+
+input[type=text]{
+    color: rgb(150, 147, 147);
+    font-size: 0.8vw;
+    text-align: center;
+}
+
+input:focus::placeholder{
+    color: transparent;
+    
+}
+
+
+
+
+
+
+
+
+
